@@ -10,7 +10,15 @@ export default function Home() {
       <div className="space-y-6 ">
         <MaterialForm />
         <StockUpdateForm />
-        <InventoryTable />
+        <div className="overflow-x-auto">
+          {" "}
+          {/* Added overflow-x-auto for horizontal scrolling */}
+          <div className="inline-block min-w-full">
+            {" "}
+            {/* Ensures the table takes full width */}
+            <InventoryTable />
+          </div>
+        </div>
       </div>
     </main>
   );
