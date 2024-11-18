@@ -53,8 +53,8 @@ export default function InventoryTable() {
                         <th className="border px-4 py-2">Material</th>
                         <th className="border px-4 py-2">Quantity</th>
                         <th className="border px-4 py-2">Unit</th>
-                        <th className="border px-4 py-2">Price</th>
                         <th className="border px-4 py-2">Name</th>
+                        <th className="border px-4 py-2">Price</th>
                         <th className="border px-4 py-2">Action</th>
                     </tr>
                 </thead>
